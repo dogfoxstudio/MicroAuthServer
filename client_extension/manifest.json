@@ -1,0 +1,13 @@
+{
+  "name": "Micro Auth Client",
+  "version": "1.3",
+  "manifest_version": 3,
+  "background": {
+        "service_worker": "background.js"
+  },
+  "permissions": ["tabs","scripting","activeTab"],
+  "host_permissions": ["https://*/*","http://*/*"],
+  "action": {
+        "default_popup":"popup.html"
+    }
+}
